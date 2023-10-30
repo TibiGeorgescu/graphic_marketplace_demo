@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-06-20T13:02:29.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="M68uhS1NInTlIvn1a5mQ" version="21.5.0" type="device">
+  <diagram name="Page-1" id="OD-RDEZde3WFwp8q6YIg">
+    <mxGraphModel dx="1269" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cL1eIHzqHF8BbYs0z_st-2" target="cL1eIHzqHF8BbYs0z_st-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cL1eIHzqHF8BbYs0z_st-2" target="cL1eIHzqHF8BbYs0z_st-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cL1eIHzqHF8BbYs0z_st-2" target="cL1eIHzqHF8BbYs0z_st-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-2" value="Management&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-3" value="Baza de date MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cL1eIHzqHF8BbYs0z_st-5" target="cL1eIHzqHF8BbYs0z_st-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-5" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cL1eIHzqHF8BbYs0z_st-6" target="cL1eIHzqHF8BbYs0z_st-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-6" value="RabbitMQ&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="380.81" y="289.6" width="78.37" height="67.19" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-10" value="Mailer&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cL1eIHzqHF8BbYs0z_st-12" value="AWS S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="153.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
